@@ -1,0 +1,116 @@
+/* colors and font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap'); /*toujours mettre la police avant le reste du css (soit au début du css soit dans le head du html*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap'); 
+@import "components/pc.css";
+@import "components/tablet.css";
+@import "components/phone.css";
+@import "components/navbar.css";
+@import "components/card.css";
+
+Body {
+	background-color: #DBDBDB;
+	background: url(../images/background6.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Poppins', 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000F08;
+}
+ 
+.container {
+	margin: 20px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}	
+
+	
+a {
+	text-decoration: none;
+	color: white;
+	transition : 1s;
+}
+
+a:hover { /*application sur les liens lorsque l'on passe la souris dessus*/
+	color: rgb(50, 50, 50);
+}
+
+p {
+	line-height: 1.8;
+	text-align: center;
+}
+
+h1, h3 {
+		text-align: center;
+	}
+
+	
+.list-inline-white{
+	display: inline; /* change list item behavior to inline */
+	color: #FFFFFF;
+	text-transform : uppercase;
+	margin: -5px auto; /* Let CSS compute the same left & right margins automatically*/
+	transition : 1s;
+	padding-left: 0px;
+}
+
+.list-inline-white ul {
+	padding-left: 0px;
+}
+
+.profile-align i {
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+.nav-centered {
+	text-align: center;
+}
+
+.speech-bubble {
+	background: rgb(79, 95, 163);
+	border-radius: .4em;
+	position: relative;	
+}
+
+.speech-bubble:after {
+	content: '';
+	position:absolute;
+	bottom: 0;
+	left:50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: rgb(79, 95, 163);
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -5px;
+	margin-bottom: -10px;
+}
+
+.speech-bubble-text {
+	background: rgb(79, 95, 163);
+	padding: 8px 15px; 
+	width: fit-content;
+	text-align: center;
+	color: white;
+	border-radius: 3px; 
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.img-rectangle img {
+	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+	margin: 10px auto;
+	margin-top : 0px;
+}
+
+#title-close h1 {
+	margin-top: 30px;
+	line-height: 1px;
+}
+
+
+#social-space li {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+}
+

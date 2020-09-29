@@ -1,0 +1,32 @@
+@media (max-width: 800px) {/* TABLETTE - For a screen < 800px, this CSS will be read */
+	p {
+		font-size: 11px;
+	}
+	.container {
+		width: 700px;
+	}
+	.nav-centered {
+		font-size: 12px;
+	}
+	.list-inline-white li, i {
+		padding: 0px 10px; /* add som left/right padding between list items */
+	}
+	.photo-adjust {
+		width: 100%;
+		text-align: center;
+	}
+	.img-rectangle img {
+		max-width: 50%;
+		height: auto;
+		border-radius: 50%;
+	}
+	.card-white {
+		display: block;
+		width: 80%;	
+		padding: 25px;
+	}
+	.card-red {
+		width: 80%;	
+		padding: 25px;
+	}
+}

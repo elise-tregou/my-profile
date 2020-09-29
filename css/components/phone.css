@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) { /* MOBILE - For a screen < 600px, this CSS will be read */
+	h3 {
+		font-size:12px;
+	}
+	.container {
+		width: 100%;
+	}
+	.nav-centered {
+		font-size: 10px;
+	}
+	.list-inline-white li, i {
+		padding: 0px 5px; /* add som left/right padding between list items */
+	}
+	.photo-adjust {
+		text-align: center;
+	}
+	.img-rectangle img {
+		max-width: 50%;
+		height: auto;
+		border-radius: 50%;
+		margin-left: center;
+	}
+	.card-white {
+		display: block;
+		padding: 15px;
+	}
+	.card-red {
+		padding: 15px;
+		margin-left: -25px;
+	}
+}

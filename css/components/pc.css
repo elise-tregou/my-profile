@@ -1,0 +1,36 @@
+@media (max-width: 1300px) { /* PC - For a screen < 1300px, this CSS will be read */
+	h1, h2 {
+		font-size: 24px;
+		font-weight:200;
+	 }
+	 h3 {
+		font-size:14px;
+	 }
+	.container {
+		width: 900px;
+	}
+	.nav-centered {
+		font-size: 14px;
+	}
+	.list-inline-white li, i {
+		padding: 0px 20px; /* add som left/right padding between list items */
+	}
+	.photo-adjust {
+		padding-right: 20px;
+		width: 250%;
+	}
+	.card-white {
+		display: flex;
+		width: 80%;
+		padding: 25px;
+	}
+	.img-rectangle img {
+		max-width: 100%;
+		height: auto;
+	}
+	.card-red {
+		width: 80%;	
+		padding: 25px;
+	}
+	
+}
